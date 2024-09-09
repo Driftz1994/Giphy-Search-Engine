@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header> <a href="index.html">
+    <h1> GIPHY Search API</h1>
+</a>
+<a href="About.html" id="About">About</a>
+<a href="Contact.html" id="Contact">Contact</a>
+</header>
+
+    <h1 style="text-decoration: underline; text-align: center; color: white;" class="Contact_Us">Contact Us</h1>
+
+  <div style="text-align: center;">
+    <Form class="Contact_Form" style="justify-content: center;">
+      <label for="name" style="color: white;">Name:</label>
+      <input type="text" id="name" placeholder="Name" required style="box-shadow: 2px 2px 7px 1px black;"> <br>
+      
+      <label for="email" style="color: white;">Email:</label>
+      <input type="email" name="email" id="email" placeholder="YourEmail@email.com" required style="box-shadow: 2px 2px 7px 1px black;"><br>
+      
+      <label for="phone" style="color: white;">Phone #:</label>
+      <input type="tel" id="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required style="box-shadow: 2px 2px 7px 1px black;"><br>
+
+      <div>
+          <textarea name="order" id="order" placeholder="Message Me" style="box-shadow: 2px 2px 7px 1px black;" cols="40" rows="5"></textarea>
+      </div>
+      </Form>
+<div class="button">
+  <button type="submit" class="Contact_Btn">Submit</button>
+</div>
+  </div>    
+
+  <div class="Thankyou"> 
+    Thank You for using my Gif search engine!
+  </div>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
