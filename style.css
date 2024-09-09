@@ -1,0 +1,145 @@
+html {
+    height :fit-content;
+    align-items:center;
+    justify-content:center;
+    background-color:#2d3436;
+    background-image:linear-gradient(315deg, #110041 0%, #000000 74%);
+  }
+  
+  h1{
+  
+    font-family: "Press Start 2P", system-ui;
+    color: white;
+    text-decoration: none;
+  }
+header {
+  text-align: center;
+  text-decoration: none;
+}
+  #About {
+    font-family: "Press Start 2P", system-ui;
+  }
+
+  #Contact{
+    font-family: "Press Start 2P", system-ui;
+  }
+  .Contact_Form {
+    font-family: "Press Start 2P", system-ui;
+  }
+  .Contact_Btn {
+    background:#222;
+    height: 45px;
+    min-width: 90px;
+    border: none;
+    border-radius: 10px;
+    color:#eee;
+    font-size:35px;
+    font-family:"Press Start 2P", system-ui;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 1rem;
+  }
+
+  .About {
+    font-family:"Press Start 2P", system-ui;
+    color: white; 
+    font-size: 35px; 
+    text-align: center;
+    padding: 10px;
+  }
+
+  .user-stories{
+    font-family:"Press Start 2P", system-ui;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .developer-stories{
+    font-family:"Press Start 2P", system-ui;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  #btn {
+    background:#222;
+    height: 45px;
+    min-width: 90px;
+    border: none;
+    border-radius: 10px;
+    color:#eee;
+    font-size:35px;
+    font-family:"Press Start 2P", system-ui;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 1rem;
+  }
+  
+  #btn #circle {
+    height: 5px;
+    width: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition:500ms;
+  }
+  
+  #btn :hover {
+    height: 50px;
+    width: 100px;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid yellow;
+  }
+  
+  #input {
+    background: #222;
+    height:45px;
+    width: 190px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    font-family:"Press Start 2P", system-ui;
+    padding-left: 15px;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    width: calc(200px *4 +3em);
+    margin: auto;
+  }
+
+  .results {
+    columns: 4;
+    column-gap: 1em;
+  }
+  .item {
+    margin-bottom: 1em ;
+  }
+
+.Thankyou {
+  font-family:"Press Start 2P", system-ui;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
